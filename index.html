@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Alien Invasion</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/addons/p5.sound.min.js"></script>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="canvas-container"></div>
+
+    <form id="input-form">
+
+        <!-- Add your input elements here -->
+        <label>Spaceship Name:</label>
+        <input id="spaceshipName" type="text">
+
+        <label for="ammunition">Ammunition:</label>
+        <input type="number" id="ammunition">
+
+        <button class="button" id="start_Game" type="button" onclick="startGame()">Start Game</button>
+        <button class="button" id="fire" type="button" onclick="fireShot()">Fire Shot</button>
+
+    </form>
+    <!-- Game Output -->
+    <div id="game-output">
+    </div>
+    <div id="score"></div>
+
+    <script src="index.js" defer> </script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+/* Style for the form container */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+
+}
+
+/* Style for the form labels */
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Style for the form inputs */
+form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #337ab7;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #23527c;
+}
+
+.button:active {
+  background-color: #0d2a44;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button.animate {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Style for the buttons */
+form button {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-right: 10px;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style for the game output container */
+#game-output {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  text-align: center;
+
+}
